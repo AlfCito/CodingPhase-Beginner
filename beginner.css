@@ -1,0 +1,317 @@
+body{
+	margin: 0px;
+	padding: 0px;	
+}
+
+.nav,
+.nav2,
+a,
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+p,
+h1,
+h4{
+	font-family: 'Gentium Book Basic', serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	margin: 10px 0px;
+	padding: 0px;
+	justify-content: space-around;
+}
+
+#top{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/homeTop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#top2{
+	width: 100%;
+	height: 80px;
+	background-image: url(images/homeTop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.topContainer{
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+}
+
+.title{
+	padding-top: 10vh;
+}
+
+.title h1{
+	color: white;
+	font-size: 5em;
+}
+
+.title h3{
+	color: red;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1em;
+}
+
+.title p{
+	color: white;
+	font-style: italic;
+}
+
+nav{
+	padding-top: 1em;
+}
+
+.nav a,
+.nav2 a{
+	color: #616382;
+	//padding: 0.5em;	
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size: 1em;
+}
+
+.nav a:hover,
+.nav2 a:hover {
+	color: white;
+}
+
+.current a{
+	padding-bottom: 5px;
+	border-bottom: 2px solid red;
+	color: white;
+}
+
+
+.textContainer{
+	margin: 0 auto;
+	width: 35%;
+	line-height: 1.8em;
+}
+
+#text .textContainer:nth-of-type(1) p:nth-of-type(1):first-letter{
+	font-weight: bold;
+	float: left;
+	font-size: 350%;
+    margin: 0 .1em 0 0;
+    padding-top: 18px;
+
+}
+
+#text2{
+	margin-top: 120px;
+}
+
+#text2 .textContainer:nth-of-type(1) p:nth-of-type(1):first-letter{
+	font-weight: bold;
+	float: left;
+	font-size: 350%;
+    margin: 0 .1em 0 0;
+    padding-top: 18px;
+
+}
+
+.img-01-container{
+	margin: 50px auto;
+	width: 35%;
+	line-height: 1.8em;
+}
+
+.img01{
+	float: right;
+}
+
+.txt01{
+	float: right;
+	position: absolute;
+	width: 35%;
+}
+
+.txt01 p{
+	position: absolute;
+	width: 26%;
+	right: -28%;
+	top: -15px;
+	border-top: 2px red solid;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";   
+    display: block;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	*zoom 1;
+}
+
+
+
+blockquote{
+	font-size: 1.3em;.
+	line-height: 2em;
+	border-left: 2px red solid;
+	padding: 5px 0px 5px 15px;
+	margin: 50px 0px;
+}
+
+.mixed{
+	margin: 0 auto;
+	width: 35%;
+	line-height: 1.8em;
+}
+
+.inTxt{
+	//margin-right: 10px;
+}
+
+.outImg{
+	float: right;
+	width: 25%;
+	margin-left: 20px;
+}
+
+.comments{
+	width:105px;
+	margin: 0 auto;
+	text-align: center;
+	font-style: italic;
+	margin-top: 50px;
+	border-bottom: 2px solid red;
+}
+
+.more{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.more div{
+	width: 40%;
+	position: relative;
+}
+
+.more h4{
+	font-size: 1.5em;
+}
+
+.more p{
+	line-height: 1.3em;
+}
+
+.more a{
+	color: red;
+	text-transform: uppercase;
+	font-size: 0.9em;
+
+}
+
+.more a:hover{
+	color:black;
+}
+
+.more div:nth-of-type(2) a{
+	float: right;
+}
+
+.prevbtn{
+	position: absolute;
+	left:-18px;
+}
+
+.nextbtn{
+	position: absolute;
+	right:-18px;
+}
+
+footer{
+	height: 576px;
+	background-image: url(images/footer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footerContainer{
+	margin: 0 auto;
+	width: 70%;
+	height: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.copy p{
+	color: #616382;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8em;
+	padding-left: 15px;
+}
+
+.nav2{
+	padding-right: 15px;
+}
+
+.nav2 a{
+	margin: 0px 10px;
+}
+
+form label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 0.8em;
+	display: block;
+}
+
+form input[type="email"],
+form textarea{
+	width: 100%;
+}
+
+form textarea{
+	height: 150px;
+}
+
+form input[type="submit"]{
+	float: right;
+	background: none;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: red;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+form input[type="submit"]:hover{
+	color: black;
+	cursor: pointer;
+}
+
+
+form{
+	margin-bottom: 100px;
+}
