@@ -1,2 +1,2 @@
-# codingPhase-Beginner
+# CodingPhase-Beginner
 CodingPhase Beginner Challange
