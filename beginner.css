@@ -25,11 +25,15 @@ a:hover{
 
 ul{
 	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 10px 0px;
 	padding: 0px;
 	justify-content: space-around;
 	align-items: flex-start;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
 }
 
 .spacer{
@@ -211,12 +215,6 @@ nav{
 	clear: both;
 }
 
-.clearfix{
-	*zoom 1;
-}
-
-
-
 blockquote{
 	font-size: 1.3em;.
 	line-height: 2em;
@@ -256,8 +254,12 @@ blockquote{
 
 .more{
 	margin-top: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .more div{
@@ -313,6 +315,18 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
+	margin: 0 auto;
+	width: 70%;
+	height: 95%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
 }
 
 .copy p{
@@ -396,3 +410,4 @@ form{
 		width: auto;
 	}
 }
+
