@@ -37,7 +37,8 @@ ul{
 }
 
 .spacer{
-	padding-top: 120px;
+	//padding-top: 120px;
+	margin-top: 120px;
 }
 
 #wrapper{
