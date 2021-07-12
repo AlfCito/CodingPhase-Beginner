@@ -3,7 +3,7 @@ CodingPhase Beginner Challange
 HTML - CSS
 
 See it live at:
-https://alfcito.github.io/CodingPhase-Beginner/
+https://eddieyepez.github.io/CodingPhase-Beginner/
 
 Beginner challange to practice web layout. 
 From image to HTML and CSS. 
